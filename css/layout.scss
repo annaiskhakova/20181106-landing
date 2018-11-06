@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+margin-top: 0;
+font-weight: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  display:flex;}
+
+h1 {
+  font-family: 'Gagalin Regular';
+  font-size: 72px;
+  margin: 30px 0 20px 10px;
+  line-break: auto;
+  text-transform: uppercase;
+  color: $yellow;}
+
+h2 {
+  font-family: 'Lifehack Medium';
+  font-size: 62px;
+  line-height: 1;
+  margin: 20px 0 10px 10px;
+  color: #ffffff; }
+
+.container {
+  margin: 0 auto;
+  width: 960px; }
+
+
+
+  .arrow {
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: 28px;
+    padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
