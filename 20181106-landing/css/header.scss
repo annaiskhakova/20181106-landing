@@ -1,0 +1,134 @@
+.header {
+background-color: black;
+background-image: url("./../img/bg.jpg");
+}
+
+.header__menu {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+align-self:center;
+width: 100%; 
+position: absolute;}
+
+.header-menu__content {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+flex-flow: row;
+align-self:center;
+height: 90px;
+margin: 0 auto;
+width: 960px; }
+
+.logo {
+display: flex;
+padding: auto;
+margin-top: 10px;
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex: 1; }
+
+.logo a {
+display: block; }
+
+.logo__img {
+margin: 0;
+padding: 10px 8px;
+height: 75px; }
+
+.nav {
+display: flex;
+padding: 25px 8px; }
+
+.nav__ul {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size: 13px;
+text-transform: uppercase;
+color: #ffffff;
+line-height: 1.2; }
+
+.nav__li {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+margin: auto 0;
+a
+{text-decoration: none;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size: 13px;
+text-transform: uppercase;
+color: #ffffff;
+line-height: 1.2; 
+} 
+}
+
+.nav__li::after {
+content: "•";
+padding: 0 17px; }
+
+.nav__li:last-of-type:after {
+display: none; }
+
+.button {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex; }
+
+.header__btn {
+background-color: $orange;
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+margin: auto 10px; }
+
+.header__btn:hover {
+background-color: #c1401e; }
+
+.header__container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width:100%;
+}
+
+.header-container__block {
+margin-top:-16px;
+width: 960px;
+display: flex; 
+align-items: center;
+justify-items: center;
+}
+
+.header-container__item {
+max-width: 50%; }
+
+
+.container__img {
+width: 455px;
+padding: 15px 10px;
+margin: -43px 10px 0 15px; }
+
+
+

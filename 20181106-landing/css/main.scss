@@ -1,0 +1,20 @@
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+
+@import "./normalize.css";
+@import "../fonts/fonts";
+@import "./layout";
+
+
+@import "./header";
+@import "./we";
+@import "./team";
+@import "./menu";
+@import "./reviews";
+@import "./form";
+@import "./contacts";
+
+

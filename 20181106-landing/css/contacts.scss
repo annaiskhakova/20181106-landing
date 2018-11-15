@@ -1,0 +1,78 @@
+.contacts{
+background-color: #000000;
+background-image: url("./../img/bg-contacts.jpg");
+display: flex;
+align-content: flex-end;
+flex-flow: column;
+justify-content: flex-end;
+}
+.cont-footer{
+display: flex;
+flex-flow:row;
+align-content: space-around;
+background-color: #000000;
+}
+
+.cont-footer__left{
+width:50%;
+display: flex;
+flex-direction: column;
+padding:0 80px;
+}
+
+.cont-footer__tlf{
+    display: flex;
+    flex-direction: row;
+    margin:7px 15px 3px 0;
+}
+
+.cont-footer__text{
+color:#ffffff;
+font-family: 'Ubuntu';
+font-size: 13px;
+font-weight:500;
+margin: 7px 0 3px 0;
+}
+
+
+.cont-footer__call{
+display: block;
+color: $red;
+text-decoration: none;
+font-family: 'Ubuntu';
+font-size: 14px;
+font-weight:700;
+padding-left:10px;
+line-height:1.1;
+}
+
+.cont-footer__right{
+width:50%;
+display: flex;
+justify-content: center;
+align-content: center;
+padding:0 80px;
+}
+
+
+.cont-footer__social{
+display: flex;
+width: 100%;
+justify-content: flex-end;
+align-content: center;
+}
+
+.cont-footer__logos{
+display: flex;
+margin-left:20px;
+}
+
+.cont-footer__icon{
+fill: #404040;
+width: 25px;
+height:20px;}
+
+.cont-footer__icon:hover{
+    fill: #ffffff;
+}
+

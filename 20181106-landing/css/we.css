@@ -1,0 +1,40 @@
+.we {
+  background-color: #ffffff;
+  background-image: url("./../img/bg-we.jpg");
+  display: flex;
+  text-align: center;
+  color: black;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  line-height: 1.7; }
+
+.we__container {
+  margin: 0 auto;
+  width: 960px;
+  justify-content: center;
+  align-self: center; }
+
+.we__h1 h1 {
+  margin: 10px 0 20px 0;
+  color: black;
+  text-align: center; }
+
+.we__content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-items: center;
+  align-content: space-around; }
+
+.we__benefits {
+  flex: 1; }
+
+.we h3 {
+  margin: 40px 0 20px 0;
+  color: black;
+  text-align: center;
+  font-family: 'Lifehack-Medium';
+  font-size: 22px; }
+
+/*# sourceMappingURL=we.css.map */
