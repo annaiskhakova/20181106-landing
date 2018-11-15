@@ -6,20 +6,20 @@
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 @font-face {
-  font-family: 'Gagalin Regular';
+  font-family: 'Gagalin';
   src: url("./Gagalin-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 @font-face {
-  font-family: 'Lifehack Medium';
-  src: url("./Lifehack-Medium.otf") format("opentype");
+  font-family: 'Lifehack-Medium';
+  src: url("./Lifehack-Medium.woff") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 @font-face {
   font-family: 'Lifehack-Medium';
-  src: url("./Lifehack-Medium.woff") format("opentype");
+  src: url("./Lifehack-Medium.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
@@ -67,4 +67,4 @@
 }
 */
 
-/*# sourceMappingURL=fonts.css.map */
+/*# sourceMappingURL=fonts[%D0%9A%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82].css.map */

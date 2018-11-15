@@ -1,6 +1,7 @@
 .contacts{
 background-color: #000000;
 background-image: url("./../img/bg-contacts.jpg");
+background-position: 50%;
 display: flex;
 align-content: flex-end;
 flex-flow: column;
@@ -11,6 +12,9 @@ display: flex;
 flex-flow:row;
 align-content: space-around;
 background-color: #000000;
+@include phones {
+    flex-flow:column;
+}
 }
 
 .cont-footer__left{
@@ -18,12 +22,25 @@ width:50%;
 display: flex;
 flex-direction: column;
 padding:0 80px;
+@include tablets {
+    padding:0 23px;
+}
+@include phones {
+    width:100%;
+    padding:0;
+    text-align: center;
+}
 }
 
 .cont-footer__tlf{
     display: flex;
     flex-direction: row;
     margin:7px 15px 3px 0;
+    @include phones {
+text-align: center;
+justify-content:center;
+margin-top:10px; 
+    }
 }
 
 .cont-footer__text{
@@ -32,6 +49,13 @@ font-family: 'Ubuntu';
 font-size: 13px;
 font-weight:500;
 margin: 7px 0 3px 0;
+@include phones {
+    text-align: center;
+    margin-top:16px; 
+
+
+        }
+    
 }
 
 
@@ -52,6 +76,13 @@ display: flex;
 justify-content: center;
 align-content: center;
 padding:0 80px;
+@include tablets {
+    padding:0 10px;
+}
+@include phones {
+    width:100%;
+    padding:0;
+}
 }
 
 
@@ -60,11 +91,19 @@ display: flex;
 width: 100%;
 justify-content: flex-end;
 align-content: center;
+@include phones {
+justify-content: center;
+padding:0;
+margin: 15px;
+}
 }
 
 .cont-footer__logos{
 display: flex;
 margin-left:20px;
+@include tablets {
+    margin-left:16px;
+}
 }
 
 .cont-footer__icon{

@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$orange".
-        on line 84 of /Users/Anna/Google Диск/20181106-landing/css/header.scss
+Error: Undefined mixin 'tablets'.
+        on line 25 of /Users/anna/Google Диск/20181106-landing/css/header.scss, in `tablets'
+        from line 25 of /Users/anna/Google Диск/20181106-landing/css/header.scss
 
-79: display: -webkit-box;
-80: display: -ms-flexbox;
-81: display: flex; }
-82: 
-83: .header__btn {
-84: background-color: $orange;
-85: -webkit-box-flex: 1;
-86: -ms-flex: 1;
-87: flex: 1;
-88: margin: auto 10px; }
-89: 
+20: flex-flow: row;
+21: align-self:center;
+22: height: rem(90px);
+23: margin: 0 auto;
+24: width: rem(960px); 
+25:     @include tablets {
+26:     width: 96%; 
+27:     }
+28:     @include phones {
+29:         width: 100%; 
+30:         }
 
 Backtrace:
-/Users/Anna/Google Диск/20181106-landing/css/header.scss:84
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/anna/Google Диск/20181106-landing/css/header.scss:25:in `tablets'
+/Users/anna/Google Диск/20181106-landing/css/header.scss:25
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 84 of /Users/Anna/Google Диск/20181106-landing/css/header.scss\A \A 79: display: -webkit-box;\A 80: display: -ms-flexbox;\A 81: display: flex; }\A 82: \A 83: .header__btn {\A 84: background-color: $orange;\A 85: -webkit-box-flex: 1;\A 86: -ms-flex: 1;\A 87: flex: 1;\A 88: margin: auto 10px; }\A 89: "; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 25 of /Users/anna/Google Диск/20181106-landing/css/header.scss, in `tablets'\A         from line 25 of /Users/anna/Google Диск/20181106-landing/css/header.scss\A \A 20: flex-flow: row;\A 21: align-self:center;\A 22: height: rem(90px);\A 23: margin: 0 auto;\A 24: width: rem(960px); \A 25:     @include tablets {\A 26:     width: 96%; \A 27:     }\A 28:     @include phones {\A 29:         width: 100%; \A 30:         }"; }

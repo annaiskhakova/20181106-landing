@@ -1,6 +1,7 @@
 .team {
 background-color: #000000;
 background-image: url("./../img/bg-team.jpg");
+background-position: 50%;
 display: flex;
 flex-flow: row;
 justify-content: flex-end;
@@ -15,21 +16,34 @@ justify-content: flex-start;
 right:0;
 background-color: rgba(47, 50, 52, 0.9);
 margin: 0;
+@include tablets {
+width:100%;
+text-align: center;
+justify-content:center;
+}
 }
 
 .team__content {
-margin: 10px 75px 10px 97px;
+margin: rem(10px) rem(75px) rem(10px) rem(97px);
 font-family: 'Ubuntu', sans-serif;
 font-weight: normal;
-font-size: 16px;
+font-size: rem(16px);
 align-self: center;
-  h1{
-    margin: -17px 0 0px;
-    }
+      h1{
+      margin: rem(-17px) 0 rem(0px);
+      @include phones {
+        font-size: rem(50px);
+        margin: 0;
+        }
+      }
+      @include tablets {
+      margin: 0;
+      }
 }
 
 .team__h1{
-margin:-29px 0 40px;
+margin:rem(-29px) 0 rem(40px);
+
 }
 
 .team-acco{
@@ -37,12 +51,21 @@ margin:0;
 list-style-type: none;
 font-family: 'Ubuntu', sans-serif;
 font-weight: normal;
-padding:15px 0 10px
+padding:rem(15px) 0 rem(10px);
+@include phones {
+  padding: 0;
+  }
 }
 
 .team-acco__item
 {
-margin:23px 0;   
+margin:rem(23px) 0;   
+@include tablets {
+  flex-flow: column;
+  margin:rem(17px) 10%;
+  display:flex;
+  }
+
 }
 
 .team-acco__trigger{
@@ -51,10 +74,14 @@ display: flex;
 align-items: center;
 text-decoration: none;
 font-family: 'Gagalin';
-font-size: 14px;
+font-size: rem(14px);
 line-height: 1.4;
-padding: 4px 0;
+padding: rem(4px) 0;
 text-transform: uppercase;
+@include tablets {
+font-size: rem(24px); 
+justify-content: center
+}
 }
 .team-acco__trigger-active{
 color:#f9b43b;
@@ -64,34 +91,42 @@ color:#f9b43b;
 content: "";
 height: 0;
 width: 0;
-border: 4px solid transparent;
-border-top: 6px solid #f9b43b;
-border-bottom-width: 0px;
-margin-right:12px;
+border: rem(4px) solid transparent;
+border-top: rem(6px) solid #f9b43b;
+border-bottom-width: rem(0px);
+margin-right:rem(12px);
 }
 
 .team-acco__trigger-active:before{
-border: 4px solid transparent;
-border-bottom: 6px solid #f9b43b;   
-border-top-width: 0px; 
+border: rem(4px) solid transparent;
+border-bottom: rem(6px) solid #f9b43b;   
+border-top-width: rem(0px); 
 }
 
 .team-acco__content{
 display:flex;
 flex-flow: row;
-padding: 10px 15px;
+padding: rem(10px) rem(15px);
 overflow: hidden;
+@include tablets {
+  flex-flow: column;
+
+  display:flex;
+  }
 }
 
 .team-acco__pic{
 padding:0;
-margin-right:23px;
+margin-right:rem(23px);
+@include tablets {
+  margin: rem(0px) 0 rem(20px) 0;
+  }
 }
 
 .team-acco__text{
 font-family: 'Ubuntu', sans-serif;
 font-weight: normal;
-font-size: 14px;
+font-size: rem(14px);
 line-height: 1.7;
 color: #fff;
 display:flex;
@@ -101,5 +136,5 @@ align-self: center;
 
 .team-acco__text-title{
 font-weight:500;
-margin: -8px 0 11px 0;
+margin: rem(-8px) 0 rem(11px) 0;
 }
