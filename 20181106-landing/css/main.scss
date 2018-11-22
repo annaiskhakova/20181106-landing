@@ -12,9 +12,10 @@ $phones:480px;
 
 
 @import "./normalize.css";
-@import "../fonts/fonts";
+@import "../fonts/fonts.css";
 @import "./media";
 @import "./layout";
+
 
 
 
@@ -23,6 +24,7 @@ $phones:480px;
 @import "./team";
 @import "./menu";
 @import "./reviews";
+@import "./slider";
 @import "./form";
 @import "./contacts";
 

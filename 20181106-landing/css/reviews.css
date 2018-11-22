@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 20 of /Users/anna/Google Диск/20181106-landing/css/reviews.scss, in `tablets'
-        from line 20 of /Users/anna/Google Диск/20181106-landing/css/reviews.scss
+        on line 21 of /Users/Anna/Google Диск/20181106-landing/css/reviews.scss, in `tablets'
+        from line 21 of /Users/Anna/Google Диск/20181106-landing/css/reviews.scss
 
-15: width:25%;
-16: height:50%;
-17: background-size: cover;
-18: background-position: no-repeat;
-19: filter: grayscale(100%);
-20: @include tablets {
-21:     width:50%;
-22:     height:25%;
-23:     text-align: center;
-24:     }
-25: }
+16: width:25%;
+17: height:50%;
+18: background-size: cover;
+19: background-position: no-repeat;
+20: filter: grayscale(100%);
+21: @include tablets {
+22:     width:50%;
+23:     height:25%;
+24:     text-align: center;
+25:     }
+26: }
 
 Backtrace:
-/Users/anna/Google Диск/20181106-landing/css/reviews.scss:20:in `tablets'
-/Users/anna/Google Диск/20181106-landing/css/reviews.scss:20
+/Users/Anna/Google Диск/20181106-landing/css/reviews.scss:21:in `tablets'
+/Users/Anna/Google Диск/20181106-landing/css/reviews.scss:21
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 20 of /Users/anna/Google Диск/20181106-landing/css/reviews.scss, in `tablets'\A         from line 20 of /Users/anna/Google Диск/20181106-landing/css/reviews.scss\A \A 15: width:25%;\A 16: height:50%;\A 17: background-size: cover;\A 18: background-position: no-repeat;\A 19: filter: grayscale(100%);\A 20: @include tablets {\A 21:     width:50%;\A 22:     height:25%;\A 23:     text-align: center;\A 24:     }\A 25: }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 21 of /Users/Anna/Google Диск/20181106-landing/css/reviews.scss, in `tablets'\A         from line 21 of /Users/Anna/Google Диск/20181106-landing/css/reviews.scss\A \A 16: width:25%;\A 17: height:50%;\A 18: background-size: cover;\A 19: background-position: no-repeat;\A 20: filter: grayscale(100%);\A 21: @include tablets {\A 22:     width:50%;\A 23:     height:25%;\A 24:     text-align: center;\A 25:     }\A 26: }"; }

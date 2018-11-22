@@ -1,4 +1,5 @@
 .form{
+width:100%;
 background-color: #000000;
 background-image: url("./../img/bg-form.jpg");
 background-position: 50%;
@@ -94,9 +95,10 @@ width:100%;
 margin:rem(7px) rem(12px) rem(12px) rem(12px);
 @include tablets {
     margin-top:rem(8px);
+    justify-content: center;
     }
     @include phones {
-        justify-content: center;
+        
         margin-top:rem(25px);
              }
 }
